@@ -30,10 +30,10 @@ const Navbar = () => {
   return (
     <>
       {["lg"].map((expand) => (
-        <NavbarBs fill
+        <NavbarBs
           key={expand}
           expand={expand}
-          className="px-md-4 py-md-2 nav-bg"
+          className="py-md-4 nav-bg"
         >
           <Container fluid>
             <NavbarBs.Brand className=" me-md-5">
@@ -67,7 +67,6 @@ const Navbar = () => {
                         )}
                       </span>
                     }
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <NavDropdown.Item>
                       <img className="me-3" src={Todo} alt="Todo" />
@@ -98,7 +97,6 @@ const Navbar = () => {
                         )}
                       </span>
                     }
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <NavDropdown.Item>History</NavDropdown.Item>
                     <NavDropdown.Item>Our Team</NavDropdown.Item>

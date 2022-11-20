@@ -3,7 +3,7 @@
 }
 
 .offcanvas {
-    width: 70% !important;
+    width: 65% !important;
 }
 
 .dropdown-toggle::after {
@@ -24,12 +24,16 @@
     border       : none !important;
     box-shadow   : 0 1rem 1rem rgba(0, 0, 0, 0.20);
     border-radius: 10px !important;
+    width: fit-content;
 }
-
+.offcanvas{
+    background-color: hsl(0, 0%, 98%) !important;
+}
 
 .nav-link,
 .btn {
     font-weight: 500 !important;
+    line-height: normal !important;
 }
 
 .btn-register {
@@ -39,7 +43,7 @@
     font-size       : 18px;
     font-weight     : 500;
     border-radius   : 15px !important;
-    padding         : 5px 15px !important;
+    padding         : 8px 20px !important;
 }
 
 .btn-register:hover {

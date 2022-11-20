@@ -4,3 +4,15 @@ body {
   background-color: hsl(0, 0%, 98%) !important;
   font-family     : 'Epilogue', sans-serif;
 }
+.attribution {
+  font-size    : 12px;
+  text-align   : center;
+  font-weight  : 500;
+  padding: 30px;
+  background-color: hsl(0, 100%, 80%);
+}
+
+.attribution a {
+  color          : hsl(0, 0, 4%);
+  text-decoration: none;
+}
