@@ -10,7 +10,7 @@ import MakerLogo from "../images/client-maker.svg";
 
 const Home = () => {
   return (
-    <Container className="my-md-5">
+    <Container className="my-md-5 px-md-5 ">
       <Row  className=" d-flex justify-content-between align-items-center flex-md-row-reverse g-5">
         <Col xs={12} md={5} className="p-0">
           <picture>
@@ -30,7 +30,7 @@ const Home = () => {
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
-          <Button className="btn-home my-md-5">Learn more</Button>
+          <Button className="btn-home my-md-5 mb-md-5">Learn more</Button>
 
           <Row className=" mt-5">
             <Col xs={3}><img className="me-md-4 me-2 img-fluid" src={DatabizLogo} alt="Databiz" /></Col>
@@ -57,4 +57,4 @@ const Home = () => {
 };
 
 export default Home;
-// {} ( )
+

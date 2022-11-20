@@ -36,9 +36,9 @@ const Navbar = () => {
           className="px-md-4 py-md-2 nav-bg"
         >
           <Container fluid>
-            <NavbarBs.Brand>
+            <NavbarBs.Brand className=" me-md-5">
               <img src={Logo} alt="Logo" />
-            </NavbarBs.Brand>
+            </NavbarBs.Brand >
             <NavbarBs.Toggle
               className="border-0"
               aria-controls={`offcanvasNavbar-expand-${expand}`}
@@ -108,7 +108,7 @@ const Navbar = () => {
                   <Nav.Link> About</Nav.Link>
                 </Nav>
                 <Nav>
-                  <Button className="btn-login">Login</Button>
+                  <Button className="btn-login me-md-3">Login</Button>
                   <Button className="btn-register">Rigister</Button>
                 </Nav>
               </Offcanvas.Body>
