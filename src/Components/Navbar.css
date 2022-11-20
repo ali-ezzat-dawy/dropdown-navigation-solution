@@ -1,0 +1,47 @@
+.nav-bg{
+background-color: hsl(0, 0%, 98%) !important;
+}
+
+.offcanvas {
+  width: 70% !important;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+.navbar-toggler{
+    padding: 0 !important;
+    font-size: 18px !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.dropdown-menu {
+    margin-top: 10px !important;
+    border    : none !important;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.20);
+    border-radius: 10px !important;
+    padding: 7px !important;
+    
+}
+.nav-link , .btn{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+.btn-register{
+    background-color: transparent !important;
+    color           : hsl(0, 0%, 41%) !important;
+    border          : 1px solid hsl(0, 0%, 41%) !important;
+    font-size       : 18px;
+    font-weight     : 500;
+    border-radius   : 15px !important;
+    padding         : 5px 15px !important;
+}
+
+.btn-login{
+    background-color: hsl(0, 0%, 98%) !important;
+    color: hsl(0, 0%, 41%) !important;
+    border         : none !important;
+}
