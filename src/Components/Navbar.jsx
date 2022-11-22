@@ -30,10 +30,10 @@ const Navbar = () => {
   return (
     <>
       {["lg"].map((expand) => (
-        <NavbarBs
+        <NavbarBs 
           key={expand}
           expand={expand}
-          className="py-md-4 nav-bg"
+          className="py-md-4 px-md-4 nav-bg container-fluid"
         >
           <Container fluid>
             <NavbarBs.Brand className=" me-md-5">
@@ -69,19 +69,19 @@ const Navbar = () => {
                     }
                   >
                     <NavDropdown.Item>
-                      <img className="me-3" src={Todo} alt="Todo" />
+                      <img className="me-2" src={Todo} alt="Todo" />
                       Todo List
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                      <img className="me-3" src={Calendar} alt="Calendar" />
+                      <img className="me-2" src={Calendar} alt="Calendar" />
                       Calendar
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                      <img className="me-3" src={Reminders} alt="Reminders" />
+                      <img className="me-2" src={Reminders} alt="Reminders" />
                       Reminders
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                      <img className="me-3" src={Planning} alt="Planning" />
+                      <img className="me-2" src={Planning} alt="Planning" />
                       Planning
                     </NavDropdown.Item>
                   </NavDropdown>
@@ -91,9 +91,9 @@ const Navbar = () => {
                       <span>
                         {"Company"}
                         {companyIcon ? (
-                          <img className="ms-2" src={ArrowUp} alt="Logo" />
+                          <img className="ms-1" src={ArrowUp} alt="Logo" />
                         ) : (
-                          <img className="ms-2" src={ArrowDown} alt="Logo" />
+                          <img className="ms-1" src={ArrowDown} alt="Logo" />
                         )}
                       </span>
                     }
@@ -103,10 +103,10 @@ const Navbar = () => {
                     <NavDropdown.Item>Blog</NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link>Careers</Nav.Link>
-                  <Nav.Link> About</Nav.Link>
+                  <Nav.Link>About</Nav.Link>
                 </Nav>
                 <Nav>
-                  <Button className="btn-login me-md-3">Login</Button>
+                  <Button className="btn-login me-md-4">Login</Button>
                   <Button className="btn-register">Rigister</Button>
                 </Nav>
               </Offcanvas.Body>

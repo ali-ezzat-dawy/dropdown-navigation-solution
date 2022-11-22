@@ -8,8 +8,6 @@ body {
   font-size    : 12px;
   text-align   : center;
   font-weight  : 500;
-  padding: 30px;
-  background-color: hsl(0, 100%, 80%);
 }
 
 .attribution a {

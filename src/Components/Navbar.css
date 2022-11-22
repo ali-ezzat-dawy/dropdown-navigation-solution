@@ -12,7 +12,7 @@
 
 .navbar-toggler {
     padding  : 0 !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
 }
 
 .navbar-toggler:focus {
@@ -20,11 +20,9 @@
 }
 
 .dropdown-menu {
-    margin-top   : 10px !important;
     border       : none !important;
     box-shadow   : 0 1rem 1rem rgba(0, 0, 0, 0.20);
     border-radius: 10px !important;
-    width: fit-content;
 }
 .offcanvas{
     background-color: hsl(0, 0%, 98%) !important;
@@ -33,7 +31,6 @@
 .nav-link,
 .btn {
     font-weight: 500 !important;
-    line-height: normal !important;
 }
 
 .btn-register {
@@ -43,7 +40,7 @@
     font-size       : 18px;
     font-weight     : 500;
     border-radius   : 15px !important;
-    padding         : 8px 20px !important;
+    padding         : 10px 20px !important;
 }
 
 .btn-register:hover {
@@ -60,7 +57,6 @@
 }
 
 .btn-login:hover {
-
     color: hsl(0, 0%, 8%) !important;
 }
 
